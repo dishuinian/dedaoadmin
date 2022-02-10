@@ -5,6 +5,9 @@ import 'element-ui/lib/theme-chalk/index.css';
 import router from './router'
 import store from './store'
 import './assets/css/reset.css'
+// 引入echarts
+import echarts from 'echarts'
+Vue.prototype.$echarts = echarts
 
 
 Vue.use(ElementUI);
