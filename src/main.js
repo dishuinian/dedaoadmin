@@ -6,8 +6,8 @@ import router from './router'
 import store from './store'
 import './assets/css/reset.css'
 // 引入echarts
-import echarts from 'echarts'
-Vue.prototype.$echarts = echarts
+// import echarts from 'echarts'
+// Vue.prototype.$echarts = echarts
 
 
 Vue.use(ElementUI);
